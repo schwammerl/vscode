@@ -1,0 +1,52 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // vscode settings
+    // Version 180522
+
+    // Appearance and Editor
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Solarized Light",
+    "editor.fontSize": 13,
+    "editor.cursorBlinking": "blink",
+    "editor.cursorStyle": "line",
+    "editor.dragAndDrop": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [80],
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.renderIndentGuides": false,
+
+    // Extensions
+    "extensions.ignoreRecommendations": false,
+
+    // Files
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    
+    // Language specific settings
+    "python.autoComplete.addBrackets": false,
+    "[python]": {
+        "editor.tabSize": 4
+    },
+
+    "[shellscript]": {
+        "editor.tabSize": 2
+    },
+
+    "[sql]": {
+        "editor.tabSize": 2
+    },
+    
+    // Other
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.fontSize": 13,
+    // Path to the shellcheck executable.
+    "shellcheck.executablePath": "shellcheck.exe",
+}
